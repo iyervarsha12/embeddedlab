@@ -1,0 +1,20 @@
+In this lab we used pulse width modulation to control the servo motors on the dsPIC33F
+board. The lab does the following:
+1. Display a prompt on the LCD for specifying the joystick’s maximum value in the x-dimension.
+You must also display the current digital value of the joystick’s x-position as it updates in real
+time. When the joystick’s trigger button is pressed, keep the digital value of the joystick’s
+x-position at the time of the trigger press displayed on the LCD and stop further updates
+to this value. You must use debouncing to determine when the joystick’s trigger button is
+pressed. 
+2. Same as (1) but instead for the minimum in the x-dimension. 
+3. Same as (1) but instead for the maximum in the y-dimension. 
+4. Same as (1) but instead for the minimum in the y-dimension. 
+5. Display a prompt on the LCD for specifying the servo motor pulse width in the x-dimension
+in microseconds. The joystick’s current x-position must determine the current pulse width
+in the x-dimension as it updates in real time, such that it is possible to set the plate at a
+proportional angle on the x-dimension by moving the joystick to the corresponding x-position.
+When the joystick trigger button is pressed, keep the x-dimension pulse width at the time of
+the trigger press displayed on the screen and stop further updates to both the LCD as well
+as to the servo motors. You must use debouncing to determine when the joystick’s trigger
+button is pressed. 
+6. Same as (5) but instead for the servo motor y-dimension and the joystick’s current y-position
