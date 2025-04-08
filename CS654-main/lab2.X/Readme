@@ -1,0 +1,14 @@
+The purpose of this lab is to introduce you to interrupts and Timers on the dsPIC33F board. You
+must write a program that does all of the following.
+1. Toggle LED4 inside your main program loop on every iteration. 
+2. Toggle LED1 every 5 millisecond using Timer2’s interrupt. 
+3. Toggle LED2 every 1 second using Timer1’s interrupt.
+4. In the main loop, display in a static location the time since the last reset on every 25000th
+iteration. The format should be mm:ss.xxx where mm is minutes, ss is seconds, and xxx is
+milliseconds. 
+5. Reset the time to 00:00.000 when the joystick “fire” (button 1) is pressed using edge-triggered
+external interrupt request 1 (not by polling the button). Read the documents and revise the
+lecture slides about interrupts to see how to properly enable the interrupt. 
+6. Use the 16-bit Timer3 to measure how long it takes to execute each iteration of the main
+program loop. Display the time in a static location as both the TMR3 count value (cycles)
+and in milliseconds to 4 decimal places. 
