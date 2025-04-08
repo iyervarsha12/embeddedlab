@@ -1,0 +1,16 @@
+In this lab we used ADC on the dsPIC33F board to capture and display the position of
+the ball on the touchscreen for both the X and Y dimensions. The program does the following:
+1. Move both the servos to their minimum position (-90◦ angle). This will place the ball in one
+corner, say corner 1. Once you set the servo angle, add a delay of 2 seconds to allow the ball
+to settle in the corner. 
+2. Read and store five 12-bit samples of the current X position of the ball. 
+3. Read and store five 12-bit samples of the current Y position of the ball. 
+4. Compute the sample that represents the median (not average) digital value of the X position
+of the ball over the five samples that were collected at step 1. 
+5. Compute the sample that represents the median (not average) digital value of the Y position
+of the ball over the five samples that were collected at step 2. 
+6. Print the median values for both the X and Y position of the ball to the LCD in a separate
+line.
+7. Repeat steps 1 to 6 indefinitely, every time but at every iteration of the loop, change the
+corner in which the ball is positioned, looping through all the corners. Each time, update the
+LCD such that the current position of the ball on the touchscreen is displayed in real-time
