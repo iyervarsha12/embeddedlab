@@ -1,0 +1,3 @@
+In this lab we implemented robust serial communication between a server (PC/Linux) and a
+client (Amazing Ball System). We wrote both the client and server, and tested the reliability of
+transmission in the face of an adversarial middleman (the Troll).
