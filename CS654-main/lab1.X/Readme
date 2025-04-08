@@ -1,0 +1,16 @@
+The purpose of this lab is to perform basic programming tasks on the user interface (UI) board,
+with specific attention on LCD, LEDs and joystick buttons.
+You must write a (single) program that implements all of the following logic:
+1. Display the name of each group member on the LCD. Each name should be displayed on a
+new line.
+2. Blink LED4 three times. The time between blinks should be exactly 1 second. The LED
+should be turned off at the end of the three blinks. 
+3. LED1 should be on when joystick’s button 1 (fire) is pressed and off when the button is not
+pressed 
+4. LED2 should be on when joystick’s button 2 (thumb) is pressed and off when the button is
+not pressed
+5. LED3 is off whenever buttons 1 and 2 both have the same state (both held down or both not
+held down). LED3 is on whenever buttons 1 and 2 have different states 
+6. Keep an accurate (debounced) 8-bit unsigned count of the number of times that joystick’s
+button 1 has been pressed. Display the counter’s current value on the LCD in a fixed location
+as both a hexadecimal value and a decimal value
