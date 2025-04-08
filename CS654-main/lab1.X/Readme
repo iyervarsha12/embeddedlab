@@ -1,6 +1,6 @@
-The purpose of this lab is to perform basic programming tasks on the user interface (UI) board,
+The purpose of this lab was to perform basic programming tasks on the user interface (UI) board,
 with specific attention on LCD, LEDs and joystick buttons.
-You must write a (single) program that implements all of the following logic:
+We wrote a (single) program that implements all of the following logic:
 1. Display the name of each group member on the LCD. Each name should be displayed on a
 new line.
 2. Blink LED4 three times. The time between blinks should be exactly 1 second. The LED
